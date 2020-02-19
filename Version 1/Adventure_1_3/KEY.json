@@ -1,0 +1,116 @@
+[
+	{
+		"NAME": "TEMPLATE",
+		"INST": "",
+		"TYPE": "",
+		"DESC": ""
+	},
+	{
+		"NAME": "blockSize",
+		"INST": "ALL",
+		"TYPE": "int",
+		"DESC": "Size of each block in pixels"
+	},
+	{
+		"NAME": "posX",
+		"INST": "World",
+		"TYPE": "int",
+		"DESC": "Position of centre of World relative to the screen centre"
+	},
+	{
+		"NAME": "posY",
+		"INST": "World",
+		"TYPE": "int",
+		"DESC": "Position of centre of World relative to the screen centre"
+	},
+	{
+		"NAME": "xSize",
+		"INST": "World",
+		"TYPE": "int",
+		"DESC": "Size of World in number of blocks"
+	},
+	{
+		"NAME": "ySize",
+		"INST": "World",
+		"TYPE": "int",
+		"DESC": "Size of World in number of blocks"
+	},
+	{
+		"NAME": "posBX",
+		"INST": "World",
+		"TYPE": "int",
+		"DESC": "Position of World in number of blocks"
+	},
+	{
+		"NAME": "posBY",
+		"INST": "World",
+		"TYPE": "int",
+		"DESC": "Position of World in number of blocks"
+	},
+	{
+		"NAME": "x",
+		"INST": "Player",
+		"TYPE": "int",
+		"DESC": "Position of player relative to World from top left corner of Player"
+	},
+	{
+		"NAME": "y",
+		"INST": "Player",
+		"TYPE": "int",
+		"DESC": "Position of player relative to World from top left corner of Player"
+	},
+	{
+		"NAME": "bX",
+		"INST": "Player",
+		"TYPE": "int",
+		"DESC": "Position of player realtive to World in number of blocks"
+	},
+	{
+		"NAME": "bY",
+		"INST": "Player",
+		"TYPE": "int",
+		"DESC": "Position of player realtive to World in number of blocks"
+	},
+	{
+		"NAME": "x",
+		"INST": "Block",
+		"TYPE": "int",
+		"DESC": "Position of block relative to screen centre"
+	},
+	{
+		"NAME": "y",
+		"INST": "Block",
+		"TYPE": "int",
+		"DESC": "Position of block relative to screen centre"
+	},
+	{
+		"NAME": "gX",
+		"INST": "Block",
+		"TYPE": "int",
+		"DESC": "Position of block relative to World in pixels"
+	},
+	{
+		"NAME": "gY",
+		"INST": "Block",
+		"TYPE": "int",
+		"DESC": "Position of block relative to World in pixels"
+	},
+	{
+		"NAME": "bX",
+		"INST": "Block",
+		"TYPE": "int",
+		"DESC": "Position of block relative to World in number of blocks"
+	},
+	{
+		"NAME": "bY",
+		"INST": "Block",
+		"TYPE": "int",
+		"DESC": "Position of block relative to World in number of blocks"
+	},
+	{
+		"NAME": "size",
+		"INST": "Block",
+		"TYPE": "int",
+		"DESC": "Size of block in pixels"
+	},
+]
