@@ -15,6 +15,8 @@ int blockSize;
 Table itemData;
 String errorText, errorDesc;
 boolean isError, isErrorFatal;
+
+boolean isGamePaused;
 void setup(){
   size(1200, 800);
   background(255);
@@ -23,7 +25,9 @@ void setup(){
   errorDesc = "";
   isErrorFatal = false;
   isError = false;
+  isGamePaused = false;
   itemData = loadTable("ItemData.csv", "header");
+  
   ui = new UI();
   world = new World(100, 100);
   world.createPlayer();
@@ -36,11 +40,13 @@ void setup(){
 }
 void draw(){
   background(255);
-  
-  world.checkKeys();
+  if(!isGamePaused){
+    world.checkKeys();
+  }
   world.drawBlocks();
   world.drawPlayer();
   ui.drawNotifications();
+  ui.checkKeys();
   if(isError){
     println("ERROR: " + errorText);
     if(isErrorFatal){
@@ -57,9 +63,11 @@ void draw(){
 }
 
 void error(String error, String description, boolean isFatal, int id){
-  println(error);
+  println("******");
+  println("ERROR: " + error);
   println("ID: " + id);
   println(description);
+  println("******");
   errorText = error;
   errorDesc = description;
   isErrorFatal = isFatal;

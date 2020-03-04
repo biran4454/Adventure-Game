@@ -16,7 +16,7 @@ public class World{
     player = new Player(0, -75, blockSize);
     player.setAtt("Kiran", 5, 5);
   }
-  public void populateBlocks(){ // CHANGED
+  public void populateBlocks(){
     for(int x = 0; x < xSize; x++){
       for(int y = 0; y < ySize; y++){
         blocks[x][y] = new Block(x, y, blockSize);

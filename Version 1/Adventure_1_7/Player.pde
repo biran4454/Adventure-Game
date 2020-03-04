@@ -8,12 +8,12 @@ public class Player{
     mineSpeed = 1;
     moveSpeed = 1;
     name = "---";
-    inventory = new ArrayList<String>();
+    inventory = new ArrayList<Item>();
   }
   public int x, y, bX, bY, size;
   public String name;
   public int mineSpeed, moveSpeed;
-  public ArrayList<String> inventory;
+  public ArrayList<Item> inventory;
   
   public void setAtt(String n, int mineSpeed, int moveSpeed){
     name = n;
@@ -21,7 +21,7 @@ public class Player{
     this.moveSpeed = moveSpeed;
   }
   public void addItem(String itemName){
-    inventory.add(itemName);
+    inventory.add(new Item(itemName));
     ui.addItemNotification(itemName);
   }
   public void drawPlayer(){
