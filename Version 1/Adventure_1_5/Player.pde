@@ -20,8 +20,8 @@ public class Player{
     this.mineSpeed = mineSpeed;
     this.moveSpeed = moveSpeed;
   }
-  public void addItem(String itemName){
-    inventory.add(new Item(itemName));
+  public void addItem(String itemName, int itemID){
+    inventory.add(new Item(itemID));
     ui.addItemNotification(itemName);
   }
   public void drawPlayer(){

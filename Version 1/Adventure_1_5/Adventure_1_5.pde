@@ -63,9 +63,11 @@ void draw(){
 }
 
 void error(String error, String description, boolean isFatal, int id){
-  println(error);
+  println("******");
+  println("ERROR: " + error);
   println("ID: " + id);
   println(description);
+  println("******");
   errorText = error;
   errorDesc = description;
   isErrorFatal = isFatal;
