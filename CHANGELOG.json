@@ -1,6 +1,154 @@
 [
   {
   
+    "Version": "1.13",
+    "Date": "07/04/2020",
+	"End Date": "07/04/2020",
+	"Status": "Working",
+    "Changes": [
+	  {
+        "Change": "Test and fix container."
+      },
+	  {
+        "Change": "Add drawPossibleLists() function to World so lists are drawn after the player"
+      },
+	  {
+        "Change": "Item weight is now float"
+      },
+	  {
+        "Change": "Player can now calculate inventory weight"
+      },
+	  {
+        "Change": "Player now has inventory max capacity"
+      },
+	  {
+        "Change": "Probably change some other stuff"
+      }
+  },
+  {
+  
+    "Version": "1.12",
+    "Date": "04/04/2020",
+	"End Date": "06/04/2020",
+	"Status": "Working ish",
+    "Changes": [
+	  {
+        "Change": "Tested key press notification"
+      },
+	  {
+        "Change": "Add container (not tested)"
+      },
+	  {
+        "Change": "Probably change some other stuff"
+      }
+  },
+  {
+  
+    "Version": "1.11",
+    "Date": "03/04/2020",
+	"End Date": "03/04/2020",
+	"Status": "Working",
+    "Changes": [
+      {
+        "Change": "Add snap-to-block for player when mining"
+      },
+	  {
+        "Change": "Fix bug where you can go under a block and mine it when it doesn't exist."
+      },
+	  {
+        "Change": "Add (not tested) key press notification"
+      },
+	  {
+        "Change": "Add container (not tested)"
+      },
+	  {
+        "Change": "Probably change some other stuff"
+      }
+  },
+  {
+  
+    "Version": "1.10",
+    "Date": "03/04/2020",
+	"End Date": "03/04/2020",
+	"Status": "Working",
+    "Changes": [
+      {
+        "Change": "Finally fix that really annoying bug mentioned below"
+      },
+	  {
+        "Change": "Probably change some other stuff"
+      }
+  },
+  {
+  
+    "Version": "1.9",
+    "Date": "02/04/2020",
+	"End Date": "02/04/2020",
+	"Status": "Sort of working",
+    "Changes": [
+      {
+        "Change": "Add clay item"
+      },
+	  {
+        "Change": "Attempt to fix the previously mentioned bug and failing miserably"
+      },
+	  {
+        "Change": "Probably change some other stuff"
+      }
+  },
+  {
+  
+    "Version": "1.8",
+    "Date": "04/03/2020",
+	"End Date": "02/04/2020",
+	"Status": "Working",
+    "Changes": [
+      {
+        "Change": "Merge notification tab with UI tab"
+      },
+	  {
+        "Change": "Made player size 70 to fill entire tile"
+      },
+	  {
+        "Change": "Attempt to get weird bug sorted where you go partially into a block while mining"
+      },
+	  {
+        "Change": "Unpause after opening inventory"
+      }
+  },
+  {
+  
+    "Version": "1.7",
+    "Date": "04/03/2020",
+	"End Date": "04/03/2020",
+	"Status": "Working",
+    "Changes": [
+      {
+        "Change": "Merge notification tab with UI tab"
+      },
+	  {
+        "Change": "Mined tiles don't disappear"
+      },
+	  {
+        "Change": "Add back visible inventory"
+      }
+  },
+  {
+  
+    "Version": "1.6",
+    "Date": "04/03/2020",
+	"End Date": "04/03/2020",
+	"Status": "Working",
+    "Changes": [
+      {
+        "Change": "Temporarally disable visible inventory"
+      },
+	  {
+        "Change": "Add mineral depth"
+      }
+  },
+  {
+  
     "Version": "1.5",
     "Date": "20/02/2020",
 	"End Date": "20/02/2020",

@@ -1,0 +1,5 @@
+NAME,WEIGHT,PRICE,DESCRIPTION,MIN DEPTH,MAX DEPTH,HPINIT,RARITY,R,G,B
+Clay,1,1,Mined mineral. Good for building and craft.,0,50,50,170,194,121,101
+Coal,3,5,Mined mineral.,3,1000,70,150,60,60,60
+Iron Ore,5,8,Mined mineral. Can be separated into Iron.,20,1000,100,50,120,120,120
+Gold Ore,7,12,Mined mineral. Valuable. Can be separated into Gold.,50,1000,150,20,160,150,60
